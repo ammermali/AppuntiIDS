@@ -5,8 +5,8 @@ package DesignPattern.Strutturali.Adapter.Implementazione;
  *  La variante Class Adapter, in cui l'Adapter traduce il Service in una classe del sistema,
  *  non è implementabile in Java perché non permette la doppia-ereditarietà.
  */
-public class ObjectAdapterClient {
-    public static void main(String[] args) {
+ class ObjectAdapterClient {
+     static void main(String[] args) {
         ClientInterface clientInterface = new Adapter();
         System.out.println(clientInterface.method("dati"));
     }

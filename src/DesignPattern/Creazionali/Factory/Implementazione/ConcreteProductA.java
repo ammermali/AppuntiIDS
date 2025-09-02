@@ -1,6 +1,6 @@
 package DesignPattern.Creazionali.Factory.Implementazione;
 
-public class ConcreteProductA implements Product {
+ class ConcreteProductA implements Product {
 
     @Override
     public void doStuff() {

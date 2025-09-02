@@ -1,7 +1,7 @@
 package DesignPattern.Creazionali.AbstractFactory.Implementazione;
 
-public class AbstractFactoryClient {
-    public static void main(String[] args) {
+ class AbstractFactoryClient {
+     static void main(String[] args) {
         AbstractFactory factory1 = new ConcreteFactory1();
         AbstractFactory factory2 = new ConcreteFactory2();
         ProductA productA1 = factory1.createProductA();

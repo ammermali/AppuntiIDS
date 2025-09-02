@@ -1,7 +1,7 @@
 package DesignPattern.Strutturali.Composite.Implementazione;
 
-public class CompositeClient {
-    public static void main(String[] args) {
+ class CompositeClient {
+     static void main(String[] args) {
         Leaf leaf1 = new Leaf();
         Leaf leaf2 = new Leaf();
         Leaf leaf3 = new Leaf();

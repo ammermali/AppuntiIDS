@@ -4,7 +4,7 @@ package DesignPattern.Strutturali.Adapter.Implementazione;
  *  Riceve chiamate dal ObjectAdapterClient, esegue chiamate a Service e restituisce il risultato tradotto
  *  al ObjectAdapterClient.
  */
-public class Adapter implements ClientInterface{
+ class Adapter implements ClientInterface{
     // Servizio da adattare (qui instanziato)
     private Service adaptee = new Service();
 

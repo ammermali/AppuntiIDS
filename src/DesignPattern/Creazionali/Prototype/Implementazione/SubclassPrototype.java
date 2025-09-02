@@ -1,14 +1,14 @@
-package DesignPattern.Creazionali.Prototype.Implementazione.ImplementazioneBase;
+package DesignPattern.Creazionali.Prototype.Implementazione;
 
-public class SubclassPrototype extends ConcretePrototype {
+ class SubclassPrototype extends ConcretePrototype {
     private String field2;
 
-    public SubclassPrototype(String field1, String field2) {
+     SubclassPrototype(String field1, String field2) {
         super(field1);
         this.field2 = field2;
     }
 
-    public SubclassPrototype(SubclassPrototype prototype){
+     SubclassPrototype(SubclassPrototype prototype){
         super(prototype);
         this.field2 = prototype.field2;
     }
@@ -18,7 +18,7 @@ public class SubclassPrototype extends ConcretePrototype {
         return new SubclassPrototype(this);
     }
 
-    public void doStuff(){
+     void doStuff(){
         System.out.println("SubclassPrototype doStuff " + field2);
     }
 }

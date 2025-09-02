@@ -4,6 +4,6 @@ package DesignPattern.Strutturali.Adapter.Implementazione;
  *  devono essere adattate per collaborare col client.
  */
 
-public interface ClientInterface {
+ interface ClientInterface {
     String method(String data);
 }

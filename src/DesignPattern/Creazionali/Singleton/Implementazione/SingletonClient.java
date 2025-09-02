@@ -1,7 +1,7 @@
 package DesignPattern.Creazionali.Singleton.Implementazione;
 
-public class SingletonClient {
-    public static void main(String[] args) {
+ class SingletonClient {
+     static void main(String[] args) {
         Singleton singleton = Singleton.getInstance();
         singleton.doStuff();
         System.out.println(singleton);

@@ -1,7 +1,7 @@
 package DesignPattern.Creazionali.Builder.Implementazione;
 
-public class BuilderClient {
-    public static void main(String[] args) {
+ class BuilderClient {
+     static void main(String[] args) {
         Director director = new Director();
 
         ConcreteBuilder1 concreteBuilder1 = new ConcreteBuilder1();

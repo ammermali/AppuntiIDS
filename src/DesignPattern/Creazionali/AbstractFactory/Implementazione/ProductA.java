@@ -1,5 +1,5 @@
 package DesignPattern.Creazionali.AbstractFactory.Implementazione;
 
-public interface ProductA {
+ interface ProductA {
     void doStuff();
 }

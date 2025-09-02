@@ -1,7 +1,7 @@
 package DesignPattern.Creazionali.Factory.Implementazione;
 
 class FactoryClient{
-    public static void main(String[] args) {
+     static void main(String[] args) {
         Creator creator = new ConcreteCreatorA();
         Creator creator2 = new ConcreteCreatorB();
 

@@ -1,7 +1,7 @@
-package DesignPattern.Creazionali.Prototype.Implementazione.ImplementazioneBase;
+package DesignPattern.Creazionali.Prototype.Implementazione;
 
-public class PrototypeClient {
-    public static void main(String[] args) {
+ class PrototypeClient {
+     static void main(String[] args) {
         Prototype prototype = new ConcretePrototype("1");
         Prototype prototype2 = new ConcretePrototype((ConcretePrototype) prototype);
         Prototype prototype3 = new SubclassPrototype("1", "2");

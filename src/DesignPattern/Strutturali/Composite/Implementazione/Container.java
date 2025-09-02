@@ -5,7 +5,7 @@ import java.util.ArrayList;
  * Non conosce le classi concrete dei figli.
  */
 
-public class Container implements Component {
+ class Container implements Component {
     private ArrayList<Component> children = new ArrayList<>();
 
     // tutto il lavoro viene delegato ai nodi figli
@@ -17,16 +17,16 @@ public class Container implements Component {
     }
 
     // aggiungi un componente a questo componente
-    public void add(Component component){
+     void add(Component component){
         children.add(component);
     }
 
     // rimuovi un componente da questo componente
-    public void remove(Component component){
+     void remove(Component component){
         children.remove(component);
     }
 
-    public ArrayList<Component> getChildren() {
+     ArrayList<Component> getChildren() {
         return children;
     }
 

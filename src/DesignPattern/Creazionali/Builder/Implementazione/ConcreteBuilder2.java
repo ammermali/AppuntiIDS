@@ -1,6 +1,6 @@
 package DesignPattern.Creazionali.Builder.Implementazione;
 
-public class ConcreteBuilder2 implements Builder {
+ class ConcreteBuilder2 implements Builder {
     private String attribute1;
     private String attribute2;
     private String attribute3;
@@ -26,7 +26,7 @@ public class ConcreteBuilder2 implements Builder {
         this.attribute4 = attribute4;
     }
 
-    public Product2 getResult(){
+     Product2 getResult(){
         return new Product2(attribute1, attribute2, attribute3, attribute4);
     }
 }

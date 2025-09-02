@@ -1,6 +1,6 @@
 package DesignPattern.Creazionali.AbstractFactory.Implementazione;
 
-public class ConcreteFactory2 implements AbstractFactory {
+ class ConcreteFactory2 implements AbstractFactory {
     @Override
     public ProductA createProductA() {
         return new ConcreteProductA2();

@@ -1,17 +1,17 @@
 package DesignPattern.Creazionali.Singleton.Implementazione;
 
-public class Singleton {
+ class Singleton {
     private static Singleton instance;
     private Singleton() {}
 
-    public static Singleton getInstance() {
+     static Singleton getInstance() {
         if(instance == null){
             instance = new Singleton();
         }
         return instance;
     }
 
-    public void doStuff(){
+     void doStuff(){
         System.out.println("Singleton doStuff");
     }
 }

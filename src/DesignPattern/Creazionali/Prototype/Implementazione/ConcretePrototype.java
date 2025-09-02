@@ -1,13 +1,13 @@
-package DesignPattern.Creazionali.Prototype.Implementazione.ImplementazioneBase;
+package DesignPattern.Creazionali.Prototype.Implementazione;
 
-public class ConcretePrototype implements Prototype {
+ class ConcretePrototype implements Prototype {
     private String field1;
 
-    public ConcretePrototype(String field1) {
+     ConcretePrototype(String field1) {
         this.field1 = field1;
     }
 
-    public ConcretePrototype(ConcretePrototype prototype) {
+     ConcretePrototype(ConcretePrototype prototype) {
         this.field1 = prototype.field1;
     }
 
@@ -16,7 +16,7 @@ public class ConcretePrototype implements Prototype {
         return new ConcretePrototype(this);
     }
 
-    public void doStuff(){
+     void doStuff(){
         System.out.println("ConcretePrototype doStuff " + field1);
     }
 }

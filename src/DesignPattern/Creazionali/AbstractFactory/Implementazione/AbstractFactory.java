@@ -1,6 +1,6 @@
 package DesignPattern.Creazionali.AbstractFactory.Implementazione;
 
-public interface AbstractFactory {
+ interface AbstractFactory {
     ProductA createProductA();
     ProductB createProductB();
 }

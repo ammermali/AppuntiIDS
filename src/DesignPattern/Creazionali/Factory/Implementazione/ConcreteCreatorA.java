@@ -1,9 +1,9 @@
 package DesignPattern.Creazionali.Factory.Implementazione;
 
-public class ConcreteCreatorA extends Creator {
+ class ConcreteCreatorA extends Creator {
 
     @Override
-    public Product createProduct() {
+     Product createProduct() {
         // logic
         return new ConcreteProductA();
     }
